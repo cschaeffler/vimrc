@@ -24,9 +24,21 @@
 :set showtabline=2
 " Display Current Mode
 :set showmode
-" Prevent Words from splitting line break
 :set linebreak
-" Prevent White Space Chars
 :set nolist
-" Add Mouse Support
 :set mouse=a
+" Search related stuff
+" Set highlighting of search results
+:set hlsearch!
+" Press F3 to toggle highlighting
+nnoremap <F3> :set hlsearch!<CR>
+" Set Incremental Search
+:set incsearch
+" Case ignore in searches
+:set ignorecase
+" Smart Case
+:set smartcase
+" Show Match
+:set showmatch
+" Press Ctrl + C for screen clearing
+nnoremap <nowait><silent> <C-C> :noh<CR>
