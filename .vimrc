@@ -40,12 +40,12 @@ nnoremap <F3> :set hlsearch!<CR>
 :set smartcase
 " Show Match
 :set showmatch
-" Press Ctrl + C for screen clearing
-nnoremap <nowait><silent> <C-C> :noh<CR>
+" Press Ctrl + C, Ctrl + C for screen clearing
+nnoremap <nowait><silent> <C-C> <C-C>:nohlsearch<CR>:match<CR>:diffupdate<CR>
 
 " Visualize tabs and newlines
 set listchars=tab:▸\ ,eol:¬
 " Enable Show List Chars by default
 " set list
 " Toggle List Chars with Ctrl + L
-nnoremap <nowait><silent> <C-L> :set list!<CR> " Toggle tabs and EOL
+nnoremap <nowait><silent> <C-L> <C-L> :set list!<CR> " Toggle tabs and EOL
