@@ -28,3 +28,5 @@
 :set linebreak
 " Prevent White Space Chars
 :set nolist
+" Add Mouse Support
+:set mouse=a
