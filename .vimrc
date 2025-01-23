@@ -24,3 +24,7 @@
 :set showtabline=2
 " Display Current Mode
 :set showmode
+" Prevent Words from splitting line break
+:set linebreak
+" Prevent White Space Chars
+:set nolist
