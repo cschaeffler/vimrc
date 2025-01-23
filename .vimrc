@@ -3,7 +3,7 @@
 " Relative Line Numbers
 :set relativenumber
 " Colorscheme
-:colorscheme lunaperche
+:colorscheme slate
 " Tab Size
 :set tabstop=4
 " Background Color
