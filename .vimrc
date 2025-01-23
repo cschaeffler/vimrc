@@ -41,7 +41,7 @@ nnoremap <F3> :set hlsearch!<CR>
 " Show Match
 :set showmatch
 " Press Ctrl + C, Ctrl + C for screen clearing
-nnoremap <nowait><silent> <C-C> <C-C>:nohlsearch<CR>:match<CR>:diffupdate<CR>
+nnoremap <nowait><silent> <C-C> <C-C>:nohlsearch<CR>:diffupdate<CR>:match<CR>
 
 " Visualize tabs and newlines
 set listchars=tab:▸\ ,eol:¬
@@ -49,3 +49,6 @@ set listchars=tab:▸\ ,eol:¬
 " set list
 " Toggle List Chars with Ctrl + L
 nnoremap <nowait><silent> <C-L> <C-L> :set list!<CR> " Toggle tabs and EOL
+
+" Turn Alarm Bell off
+:set belloff=all
